@@ -11,7 +11,7 @@ const dotPattern =
 
 function About() {
   return (
-    <div className="w-full flex flex-col lg:flex-row items-center gap-10 px-8 py-16">
+    <div className="w-full flex flex-col lg:flex-row items-center gap-10 px-8 py-16 mt-15">
       <div className="relative flex-1">
         <div
           className="absolute inset-0 bg-repeat rounded-lg"
@@ -47,11 +47,11 @@ function About() {
       </div>
 
       <div className="flex-1 ml-5">
-        <h1 className="text-4xl font-bold text-gray-800 mb-4 ">
+        <h1 className="text-5xl font-bold text-gray-800 mb-8 ">
           We Help To Get The Best Job And Find A Talent
         </h1>
 
-        <p className="text-gray-600 mb-6 leading-relaxed">
+        <p className="text-gray-600 mb-8 leading-relaxed">
           Our platform connects passionate job seekers with industry-leading
           companies. Whether you're looking to start your career or expand your
           team, we provide the tools, resources, and network to make it happen.
@@ -73,7 +73,7 @@ function About() {
             interview tips, and skill-building tools dolore erat amet
           </li>
         </ul>
-        <button className="px-6 text-lg py-3 bg-[#00b074] text-white rounded-md hover:bg-black transition-colors">
+        <button className="px-8 text-lg py-5 bg-[#00b074] text-white rounded-md hover:bg-black transition-colors">
           Read More
         </button>
       </div>
