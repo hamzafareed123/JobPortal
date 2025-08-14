@@ -4,29 +4,15 @@ import img1 from "../images/img1.jpg";
 import img2 from "../images/img2.jpg";
 import img3 from "../images/img3.jpg";
 import img4 from "../images/img4.jpg";
-import mainImage from '../images/aboutUs.jpg'
+
 
 const dotPattern =
   "data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='1' cy='1' r='1' fill='%23cbd5e1'/%3E%3C/svg%3E";
 
-function About() {
+function AboutSection() {
   return (
     <>
-      <section className="relative h-[90vh] w-full mt-0 overflow-hidden">
-        <div className="absolute inset-0 bg-black bg-opacity-20"></div>
-
-        <div className="relative z-10 w-1/2 flex flex-col justify-center items-center h-full text-center px-4 ml-10">
-          <h1 className="text-6xl font-bold text-white uppercase mb-4 p-3">
-            Turning Vision Into Reality, One Step at a Time
-          </h1>
-        </div>
-
-        <img
-          src={mainImage}
-          alt="Hero Background"
-          className="absolute inset-0 w-full h-full object-cover opacity-60"
-        />
-      </section>
+     
       <div className="w-full flex flex-col lg:flex-row items-center gap-10 px-8 py-16 mt-15">
         <div className="relative flex-1">
           <div
@@ -99,4 +85,4 @@ function About() {
   );
 }
 
-export default About;
+export default AboutSection;

@@ -4,7 +4,7 @@ import mainImage from "../images/mainSection.jpg";
 function Hero() {
   return (
     <section className="relative h-[90vh] w-full mt-0 overflow-hidden">
-      {/* Lighter transparent overlay */}
+      
       <div className="absolute inset-0 bg-black bg-opacity-20"></div>
 
       <div className="relative z-10 w-1/2 flex flex-col justify-center items-center h-full text-center px-4 ml-10">

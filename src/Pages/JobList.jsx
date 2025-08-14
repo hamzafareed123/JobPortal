@@ -5,7 +5,7 @@ import logo2 from '../images/logo2.jpg';
 import logo3 from '../images/logo3.jpg';
 import logo4 from '../images/logo4.jpg';
 import logo5 from '../images/logo5.jpg';
-
+import mainImage from '../images/mainSection.jpg'
 
 const jobData = [
   {
@@ -67,6 +67,26 @@ function JobList() {
       : jobData.filter((job) => job.type === activeTab);
 
   return (
+    <>
+<section className="relative h-[90vh] w-full mt-0 overflow-hidden">
+              
+              <div className="absolute inset-0 bg-black bg-opacity-20"></div>
+        
+              <div className="relative z-10 w-1/2 flex flex-col justify-center items-center h-full text-center px-4 ml-10">
+                <h1 className="text-6xl font-bold text-white uppercase mb-4 p-3">
+                   List of All Jobs
+                </h1>
+                
+              </div>
+        
+              <img
+                src={mainImage}
+                alt="Hero Background"
+                className="absolute inset-0 w-full h-full object-cover opacity-60"
+              />
+            </section>
+      
+
     <div className="w-full text-center mt-20">
       <h1 className="font-bold text-4xl">Job Listing</h1>
 
@@ -132,6 +152,7 @@ function JobList() {
         ))}
       </div>
     </div>
+    </>
   );
 }
 

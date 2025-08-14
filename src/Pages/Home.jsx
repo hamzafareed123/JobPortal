@@ -7,18 +7,22 @@ import About from './About'
 import JobList from './JobList'
 import Testiominal from '../Components/Testiominal'
 import Footer from '../Components/Footer'
+import AboutSection from '../Components/AboutSection'
+import JobsSection from '../Components/JobsSection'
+
 
 function Home() {
   return (
    <>
-   <NavBarSection/>
+  
    <Hero/>
    <SearchFilterSection/>
    <ExploredSection/>
-   <About/>
-   <JobList/>
+   <AboutSection/>
+   <JobsSection/>
    <Testiominal/>
-   <Footer/>
+  
+ 
    </>
     
   )
