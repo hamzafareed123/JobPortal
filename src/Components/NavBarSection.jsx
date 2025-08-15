@@ -65,7 +65,7 @@ function NavBarSection() {
                 </li>
                 <li>
                   <NavLink
-                    to="/job-details"
+                    to="/jobsDetails"
                     className="block px-4 py-2 hover:bg-[#00b074] hover:text-white"
                     onClick={() => setShowJobsMenu(false)}
                   >

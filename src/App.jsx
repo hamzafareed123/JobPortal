@@ -8,6 +8,7 @@ import JobList from './Pages/JobList'
 import NavBarSection from './Components/NavBarSection'
 import Footer from './Components/Footer'
 import Page404 from './Pages/Page404'
+import JobDetails from './Pages/JobDetails'
 
 
 
@@ -22,6 +23,7 @@ function App() {
      
       <Route path='/about' element={<About/>}/>
       <Route path='/jobs' element={<JobList/>}/>
+      <Route path='/jobsDetails' element={<JobDetails/>}/>
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/*' element={<Page404/>}/>
       
