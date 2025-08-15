@@ -3,8 +3,10 @@ import mainImage from "../images/jobDetail.jpg";
 import logo2 from "../images/logo2.jpg";
 import { FaMapMarkerAlt, FaClock } from "react-icons/fa";
 import { CheckIcon } from "@heroicons/react/24/solid";
+import ApplyNow from "./ApplyNow";
 
 function JobDetails() {
+
   const filteredJobs = [
     {
       id: 2,
@@ -56,7 +58,6 @@ function JobDetails() {
           alt="Hero Background"
           className="absolute inset-0 w-full h-full object-cover"
         />
-
 
         <style>
           {`
@@ -128,87 +129,36 @@ function JobDetails() {
           </ul>
         </div>
       </div>
- <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-20 ml-20 mt-20">
-  {/* Responsibilities */}
-  <div className="bg-white p-4">
-    <h1 className="text-3xl font-bold mb-4">Responsibilities</h1>
-    <ul className="space-y-2 text-gray-700 text-lg">
-      {require.map((item, index) => (
-        <li key={index} className="flex items-start">
-          <CheckIcon className="w-5 h-5 text-green-500 mt-1 mr-2 flex-shrink-0" />
-          <span>{item}</span>
-        </li>
-      ))}
-    </ul>
-  </div>
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-20 ml-20 mt-20">
+        {/* Responsibilities */}
+        <div className="bg-white p-4">
+          <h1 className="text-3xl font-bold mb-4">Responsibilities</h1>
+          <ul className="space-y-2 text-gray-700 text-lg">
+            {require.map((item, index) => (
+              <li key={index} className="flex items-start">
+                <CheckIcon className="w-5 h-5 text-green-500 mt-1 mr-2 flex-shrink-0" />
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
 
+        <div className="bg-[#EFFDF5] p-4 ml-75 w-120 ">
+          <h1 className="text-3xl font-bold mb-4">About Company</h1>
+          <p className="text-lg leading-relaxed text-gray-700">
+            We are looking for a creative and detail-oriented Frontend Developer
+            to join our growing team. You will be responsible for designing,
+            developing, and maintaining engaging user interfaces for our web
+            applications. This role requires a strong understanding of modern
+            frontend technologies, an eye for design, and the ability to
+            collaborate with cross-functional teams to deliver high-quality user
+            experiences.
+          </p>
+        </div>
+      </div>
 
-  <div className="bg-[#EFFDF5] p-4 ml-75 w-120 ">
-    <h1 className="text-3xl font-bold mb-4">About Company</h1>
-    <p className="text-lg leading-relaxed text-gray-700">
-      We are looking for a creative and detail-oriented Frontend Developer
-      to join our growing team. You will be responsible for designing,
-      developing, and maintaining engaging user interfaces for our web
-      applications. This role requires a strong understanding of modern
-      frontend technologies, an eye for design, and the ability to
-      collaborate with cross-functional teams to deliver high-quality user
-      experiences.
-    </p>
-  </div>
-</div>
-
-
-<div className="bg-white rounded-xl shadow-lg px-6 ml-15 flex flex-col justify-center w-[50rem] mt-15">
-  <h2 className="text-4xl font-bold mb-4 text-[#00b074]">
-    APPLY FOR THE JOB
-  </h2>
-  <form className="flex flex-col gap-4 mt-8">
-   
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xl">
-      <input
-        type="text"
-        placeholder="Enter Your Name"
-        className="border border-gray-300 rounded-lg px-4 py-4 focus:outline-none focus:ring-2 focus:ring-[#00b074]"
-      />
-      <input
-        type="email"
-        placeholder="Enter Your Email"
-        className="border border-gray-300 rounded-lg px-4 py-4 focus:outline-none focus:ring-2 focus:ring-[#00b074]"
-      />
-    </div>
-
-  
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xl">
-      <input
-        type="text"
-        placeholder="Enter Your Portfolio Website"
-        className="border border-gray-300 rounded-lg px-4 py-4 focus:outline-none focus:ring-2 focus:ring-[#00b074]"
-      />
-     
-      <label className="flex items-center justify-center border border-gray-300 rounded-lg px-4 py-4 text-gray-500 cursor-pointer hover:bg-gray-50 transition">
-        <input type="file" className="hidden" />
-        📄 Choose CV
-      </label>
-    </div>
-
-
-    <textarea
-      placeholder="Cover Letter"
-      rows="6"
-      className="border text-xl border-gray-300 rounded-lg px-4 py-8 focus:outline-none focus:ring-2 focus:ring-[#00b074]"
-    ></textarea>
-
-  
-    <button
-      type="submit"
-      className="bg-[#00b074] text-white py-4 text-xl px-4 rounded-lg hover:bg-[#00915e] transition duration-300"
-    >
-      Submit
-    </button>
-  </form>
-</div>
-
-
+      <ApplyNow/>
+      
     </>
   );
 }

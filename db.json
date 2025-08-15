@@ -1,0 +1,52 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Frontend Developer",
+      "company": "TechNova",
+      "location": "Lahore",
+      "type": "Full-Time",
+      "keywords": ["IT", "Web Development", "Designing"]
+    },
+    {
+      "id": 2,
+      "title": "Backend Engineer",
+      "company": "CodeWorks",
+      "location": "Karachi",
+      "type": "Part-Time",
+      "keywords": ["IT", "Software Development", "Data Management"]
+    },
+    {
+      "id": 3,
+      "title": "UI/UX Designer",
+      "company": "PixelPerfect",
+      "location": "Peshawar",
+      "type": "Remote",
+      "keywords": ["Designing", "Creative", "Branding"]
+    },
+    {
+      "id": 4,
+      "title": "DevOps Engineer",
+      "company": "CloudBase",
+      "location": "Peshawar",
+      "type": "Contract",
+      "keywords": ["IT", "Cloud Computing", "Infrastructure"]
+    },
+    {
+      "id": 5,
+      "title": "Construction Project Manager",
+      "company": "BuildRight",
+      "location": "Islamabad",
+      "type": "Full-Time",
+      "keywords": ["Construction", "Management", "Engineering"]
+    },
+    {
+      "id": 6,
+      "title": "Marketing Specialist",
+      "company": "BrandBoost",
+      "location": "Karachi",
+      "type": "Remote",
+      "keywords": ["Marketing", "Advertising", "Social Media"]
+    }
+  ]
+}

@@ -11,6 +11,7 @@ import AboutSection from '../Components/AboutSection'
 import JobsSection from '../Components/JobsSection'
 
 
+
 function Home() {
   return (
    <>
@@ -21,6 +22,7 @@ function Home() {
    <AboutSection/>
    <JobsSection/>
    <Testiominal/>
+  
   
  
    </>
