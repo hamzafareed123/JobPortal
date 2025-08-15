@@ -6,10 +6,8 @@ A modern job portal web application where users can search, filter, and apply fo
 - 🔍 Search jobs by keyword, location, and type
 - 📝 Post and manage job listings
 - 👤 User profiles for job seekers and employers
-- 📂 Application tracking system
 - 📱 Fully responsive design
 
 ## Tech Stack
 - **Frontend:** React.js, Tailwind CSS
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
+
